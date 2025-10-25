@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GossipGirl Estética</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>💋 Bienvenidos a GossipGirl 💋</h1>
+        <p>Tu espacio de belleza y confianza</p>
+    </header>
+
+    <main>
+        <section class="profiles">
+            <h2>Elegí tu profesional</h2>
+            <div class="cards">
+                <div class="card" onclick="abrirPerfil('Magali')">
+                    <img src="https://i.imgur.com/1eQjvR8.png" alt="Magali">
+                    <h3>Magali</h3>
+                    <p>Pestañas & Cejas</p>
+                </div>
+
+                <div class="card" onclick="abrirPerfil('Mariana')">
+                    <img src="https://i.imgur.com/9NBKk9S.png" alt="Mariana">
+                    <h3>Mariana</h3>
+                    <p>Uñas permanentes y semipermanentes</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="turnos" class="hidden">
+            <h2 id="nombrePerfil"></h2>
+            <div class="form-group">
+                <label>Seleccioná el servicio:</label>
+                <select id="servicio"></select>
+            </div>
+
+            <div class="form-group">
+                <label>Elegí el horario:</label>
+                <div id="horarios" class="horarios"></div>
+            </div>
+
+            <p id="mensaje"></p>
+            <button class="volver" onclick="volverInicio()">⬅ Volver</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 GossipGirl Estética | By Agu 💫</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

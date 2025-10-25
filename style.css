@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffb6c1, #ff80bf, #ffcce6);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+    color: #d63384;
+}
+
+main {
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    width: 200px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.horarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.horario {
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: 2px solid #ff80bf;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.horario:hover {
+    background: #ff80bf;
+    color: #fff;
+}
+
+.horario.reservado {
+    background: #ccc;
+    color: #666;
+    border-color: #999;
+    cursor: not-allowed;
+}
+
+.volver {
+    background: #ff4da6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background: rgba(255,255,255,0.8);
+    font-size: 14px;
+    color: #444;
+}
+.cancelar-btn {
+    background-color: #ff4da6;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    margin-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cancelar-btn:hover {
+    background-color: #ff1a8c;
+}
+localStorage.clear ()
+
+
